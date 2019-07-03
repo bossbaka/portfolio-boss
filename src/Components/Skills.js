@@ -5,6 +5,7 @@ import Bgjavascript from "../img/Bgjs.svg";
 import Bgreact from "../img/Bgreact.svg";
 import Bgwordpress from "../img/Bgwp.png";
 import Bggit from "../img/Bggit.png";
+import Bgagile from "../img/Agile.png";
 
 class Skills extends Component {
   render() {
@@ -14,11 +15,7 @@ class Skills extends Component {
         <div className="columns">
           <div className="column">
             <div className="card box">
-              <img
-                src={Bghtml}
-                alt="Logo HTML"
-                className="img-size-max"
-              />
+              <img src={Bghtml} alt="Logo HTML" className="img-size-max" />
               <br />
               <p style={{ padding: "10px" }}>HTML</p>
               <progress className="progress is-info" value="90" max="100">
@@ -28,11 +25,7 @@ class Skills extends Component {
           </div>
           <div className="column">
             <div className="card box ">
-              <img
-                src={Bgcss}
-                alt="Logo CSS"
-                className="img-size-max"
-              />
+              <img src={Bgcss} alt="Logo CSS" className="img-size-max" />
               <br />
               <p style={{ padding: "10px" }}>CSS</p>
               <progress className="progress is-info" value="45" max="100">
@@ -42,11 +35,7 @@ class Skills extends Component {
           </div>
           <div className="column">
             <div className="card box">
-              <img
-                src={Bgjavascript}
-                alt="Logo JS"
-                className="img-size-max"
-              />
+              <img src={Bgjavascript} alt="Logo JS" className="img-size-max" />
               <br />
               <p style={{ padding: "10px" }}>Javascript ( Basic )</p>
               <progress className="progress is-info" value="15" max="100">
@@ -58,11 +47,7 @@ class Skills extends Component {
         <div className="columns">
           <div className="column">
             <div className="card box">
-              <img
-                src={Bgreact}
-                alt="Logo React"
-                className="img-size-max"
-              />
+              <img src={Bgreact} alt="Logo React" className="img-size-max" />
               <br />
               <p style={{ padding: "10px" }}> React ( Basic )</p>
 
@@ -73,11 +58,7 @@ class Skills extends Component {
           </div>
           <div className="column">
             <div className="card box">
-              <img
-                src={Bgwordpress}
-                alt="Logo WP"
-                className="img-size-max"
-              />
+              <img src={Bgwordpress} alt="Logo WP" className="img-size-max" />
               <br />
               <p style={{ padding: "10px" }}> WordPress </p>
               <progress className="progress is-info" value="50" max="100">
@@ -87,11 +68,7 @@ class Skills extends Component {
           </div>
           <div className="column">
             <div className="card box">
-              <img
-                src={Bggit}
-                alt="Logo Git"
-                className="img-size-max"
-              />
+              <img src={Bggit} alt="Logo Git" className="img-size-max" />
               <br />
               <p style={{ padding: "10px" }}> Git </p>
 
@@ -100,6 +77,16 @@ class Skills extends Component {
               </progress>
             </div>
           </div>
+        </div>
+        <div className="columns"> 
+        <div className="column is-4">
+
+        <div className="card box">
+        <img src={Bgagile} alt="Logo Agile"/>
+        <br />
+              <p style={{ padding: "10px" }}> Methodology Agile </p>
+        </div>
+        </div>
         </div>
       </div>
     );

@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ModalImg from "./ModalImg";
-import LazyLoad, { forceCheck } from "react-lazyload";
 
 export default function Modal({
   heading,
@@ -11,9 +10,7 @@ export default function Modal({
   type,
 }) {
   const properties = ModalImg[type];
-  useEffect(() => {
-    forceCheck();
-  });
+  
   if (isBox) {
     return (
       <div className={`modal ${isActive}`}>
@@ -38,12 +35,10 @@ export default function Modal({
       <div className="modal-background" />
       <div className="modal-content">
         <div className="image">
-          <LazyLoad>
             <img
               src={properties ? properties.src : null}
               alt={properties ? properties.alt : null}
             />
-          </LazyLoad>
         </div>
         <p className="desc">{properties ? properties.description : null}</p>
       </div>
