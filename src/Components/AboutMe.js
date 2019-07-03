@@ -25,7 +25,7 @@ class AboutMe extends Component {
         <b>Date of birth</b> : 12 June 1996. <br />
         <b>Religion</b> : Buddhist <br />
         <b>Nationality</b> : Thai <br />
-        <b>Language</b> : Thai ( Native ) , English ( Poor ) <br />
+        <b>Language</b> : Thai ( Native ) , English ( Fair ) <br />
         <b>Contact</b> : Tel 092-4201609 <br />
         <b>Email</b> : phisek.boss@gmail.com <br />
         <span className="icon" style={{ paddingTop: "40px" }}>
